@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Report</title>
+    <link rel="stylesheet" href="public/bootstrap.min.css" />
+    <link rel="stylesheet" href="public/style.css" />
+  </head>
+  <body>
+    <section class="text-center text-light  jumbotron jumbotron-fluid" id="report">
+      <h4>COVID-19 REPORT</h4>
+    </section>
+
+    <main class="container">
+      <section class="row mt-5">
+          <div class="col-sm-12">
+              <div class="card mb-3 text-white bg-success">
+                <div class="card-header nigeria"></div>
+                <div class="card-body row">
+
+                  <div class="col-sm-3 text-center">
+                  <h6 class="card-title">Confirmed </h6>
+                  <p class="nigeria_confirmed_cases card-text btn btn-outline-primary"></p>
+                </div>
+
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Active </h6>
+                    <p class="nigeria_active_cases card-text btn btn-outline-warning"></p>
+                  </div>
+
+                  <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Discharged </h6>
+                     <p class="nigeria_discharged_cases card-text btn btn-outline-dark"></p>
+                  </div>
+
+                  <div class="col-sm-3 text-center">
+                   <h6 class="card-title">Death </h6>
+                   <p class="nigeria_death_cases card-text btn btn-outline-danger"></p>
+                 </div>
+            </div>
+          </div>
+         </div>
+
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-dark">
+            <div class="card-header abia"></div>
+            <div class="card-body row">
+
+              <div class="col-sm-3 text-center">
+              <h6 class="card-title">Confirmed</h6>
+              <p class="abia_report card-text btn btn-outline-primary"></p>
+              </div>
+              <div class="col-sm-3 text-center">
+                  <h6 class="card-title">Active </h6>
+                  <p class="abia_active_cases card-text btn btn-outline-warning"></p>
+              </div>
+
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Discharged </h6>
+                    <p class="abia_discharged_cases card-text btn btn-outline-success"></p>
+                </div>
+
+                  <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Death </h6>
+                        <p class="abia_death_cases card-text btn btn-outline-danger"></p>
+                      </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-3 text-white bg-secondary">
+            <div class="card-header imo"></div>
+            <div class="card-body row">
+                <div class="col-sm-3 text-center">
+                <h6 class="card-title">Confirmed</h6>
+                  <p class="imo_report card-text btn btn-outline-primary"></p>
+                </div>
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Active </h6>
+                      <p class="imo_active_cases card-text btn btn-outline-warning"></p>
+                  </div>
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Discharged </h6>
+                        <p class="imo_discharged_cases card-text btn btn-outline-success"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                       <p class="imo_death_cases card-text btn btn-outline-danger"></p>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-3 text-white bg-success">
+            <div class="card-header lagos"></div>
+            <div class="card-body row">
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                      <p class="lagos_report card-text btn btn-outline-primary"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="lagos_active_cases card-text btn btn-outline-warning"></p>
+                      </div>
+        
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Discharged </h6>
+                            <p class="lagos_discharged_cases card-text btn btn-outline-dark"></p>
+                        </div>
+                       <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                         <p class="lagos_death_cases card-text btn btn-outline-danger"></p>
+                       </div>
+                   </div>
+                 </div>
+              </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-3 text-white bg-warning">
+            <div class="card-header abuja"></div>
+            <div class="card-body row">
+
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                      <p class="abuja_report card-text btn btn-outline-primary"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="abuja_active_cases card-text btn btn-outline-dark"></p>
+                      </div>
+                       <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Discharged </h6>
+                          <p class="abuja_discharged_cases card-text btn btn-outline-success"></p>
+                       </div>
+                      <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                          <p class="abuja_death_cases card-text btn btn-outline-danger"></p>
+                     </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-3 text-white bg-danger">
+            <div class="card-header enugu"></div>
+            <div class="card-body row">
+
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                      <p class="enugu_report card-text btn btn-outline-primary"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="enugu_active_cases card-text btn btn-outline-warning"></p>
+                      </div>
+                      <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Discharged </h6>
+                         <p class="enugu_discharged_cases card-text btn btn-outline-success"></p>
+                       </div>
+        
+                      <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                        <p class="enugu_death_cases card-text btn btn-outline-dark"></p>
+                     </div>
+             </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-3 text-white bg-info">
+            <div class="card-header ebonyi"></div>
+            <div class="card-body  row">
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                      <p class="ebonyi_report card-text btn btn-outline-primary"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="ebonyi_active_cases card-text btn btn-outline-warning"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Discharged </h6>
+                            <p class="ebonyi_discharged_cases card-text btn btn-outline-success"></p>
+                        </div>
+                      <div class="col-sm-3 text-center">
+                     <h6 class="card-title">Death </h6>
+                     <p class="ebonyi_death_cases card-text btn btn-outline-danger"></p>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+            <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-dark">
+                <div class="card-header kano"></div>
+                <div class="card-body row">
+    
+                  <div class="col-sm-3 text-center">
+                  <h6 class="card-title">Confirmed</h6>
+                  <p class="kano_report card-text btn btn-outline-primary"></p>
+                  </div>
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Active </h6>
+                      <p class="kano_active_cases card-text btn btn-outline-warning"></p>
+                  </div>
+    
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Discharged </h6>
+                        <p class="kano_discharged_cases card-text btn btn-outline-success"></p>
+                    </div>
+    
+                      <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Death </h6>
+                            <p class="kano_death_cases card-text btn btn-outline-danger"></p>
+                          </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-secondary">
+                <div class="card-header katsina"></div>
+                <div class="card-body row">
+                    <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                      <p class="katsina_report card-text btn btn-outline-primary"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="katsina_active_cases card-text btn btn-outline-warning"></p>
+                      </div>
+                     <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Discharged </h6>
+                         <p class="katsina_discharged_cases card-text btn btn-outline-success"></p>
+                        </div>
+                         <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                           <p class="katsina_death_cases card-text btn btn-outline-danger"></p>
+                      </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-success">
+                <div class="card-header borno"></div>
+                <div class="card-body row">
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="borno_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="borno_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+            
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Discharged </h6>
+                                <p class="borno_discharged_cases card-text btn btn-outline-dark"></p>
+                            </div>
+                           <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                             <p class="borno_death_cases card-text btn btn-outline-danger"></p>
+                           </div>
+                       </div>
+                     </div>
+                  </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-warning">
+                <div class="card-header bauchi"></div>
+                <div class="card-body row">
+    
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="bauchi_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="bauchi_active_cases card-text btn btn-outline-dark"></p>
+                          </div>
+                         <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Discharged </h6>
+                          <p class="bauchi_discharged_cases card-text btn btn-outline-success"></p>
+                           </div>
+                          <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                              <p class="bauchi_death_cases card-text btn btn-outline-danger"></p>
+                         </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-danger">
+                <div class="card-header ogun"></div>
+                <div class="card-body row">
+    
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="ogun_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="ogun_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+                          <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Discharged </h6>
+                             <p class="ogun_discharged_cases card-text btn btn-outline-success"></p>
+                           </div>
+            
+                          <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                            <p class="ogun_death_cases card-text btn btn-outline-dark"></p>
+                         </div>
+                 </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-info">
+                <div class="card-header jigawa"></div>
+                <div class="card-body  row">
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="jigawa_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="jigawa_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Discharged </h6>
+                                <p class="jigawa_discharged_cases card-text btn btn-outline-success"></p>
+                            </div>
+                          <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                         <p class="jigawa_death_cases card-text btn btn-outline-danger"></p>
+                      </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-dark">
+              <div class="card-header gombe"></div>
+              <div class="card-body row">
+  
+                <div class="col-sm-3 text-center">
+                <h6 class="card-title">Confirmed</h6>
+                <p class="gombe_report card-text btn btn-outline-primary"></p>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Active </h6>
+                    <p class="gombe_active_cases card-text btn btn-outline-warning"></p>
+                </div>
+  
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Discharged </h6>
+                      <p class="gombe_discharged_cases card-text btn btn-outline-success"></p>
+                  </div>
+  
+                    <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Death </h6>
+                          <p class="gombe_death_cases card-text btn btn-outline-danger"></p>
+                        </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-secondary">
+              <div class="card-header kaduna"></div>
+              <div class="card-body row">
+                  <div class="col-sm-3 text-center">
+                  <h6 class="card-title">Confirmed</h6>
+                    <p class="kaduna_report card-text btn btn-outline-primary"></p>
+                  </div>
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Active </h6>
+                        <p class="kaduna_active_cases card-text btn btn-outline-warning"></p>
+                    </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Discharged </h6>
+                          <p class="kaduna_discharged_cases card-text btn btn-outline-success"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Death </h6>
+                         <p class="kaduna_death_cases card-text btn btn-outline-danger"></p>
+                    </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-success">
+              <div class="card-header sokoto"></div>
+              <div class="card-body row">
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                        <p class="sokoto_report card-text btn btn-outline-primary"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Active </h6>
+                            <p class="sokoto_active_cases card-text btn btn-outline-warning"></p>
+                        </div>
+          
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Discharged </h6>
+                              <p class="sokoto_discharged_cases card-text btn btn-outline-dark"></p>
+                          </div>
+                         <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Death </h6>
+                           <p class="sokoto_death_cases card-text btn btn-outline-danger"></p>
+                         </div>
+                     </div>
+                   </div>
+                </div>
+  
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-warning">
+              <div class="card-header edo"></div>
+              <div class="card-body row">
+  
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                        <p class="edo_report card-text btn btn-outline-primary"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Active </h6>
+                            <p class="edo_active_cases card-text btn btn-outline-dark"></p>
+                        </div>
+                         <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Discharged </h6>
+                            <p class="edo_discharged_cases card-text btn btn-outline-success"></p>
+                         </div>
+                        <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Death </h6>
+                            <p class="edo_death_cases card-text btn btn-outline-danger"></p>
+                       </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-danger">
+              <div class="card-header zamfara"></div>
+              <div class="card-body row">
+  
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                        <p class="zamfara_report card-text btn btn-outline-primary"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Active </h6>
+                            <p class="zamfara_active_cases card-text btn btn-outline-warning"></p>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Discharged </h6>
+                           <p class="zamfara_discharged_cases card-text btn btn-outline-success"></p>
+                         </div>
+          
+                        <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Death </h6>
+                          <p class="zamfara_death_cases card-text btn btn-outline-dark"></p>
+                       </div>
+               </div>
+            </div>
+          </div>
+  
+          <div class="col-sm-6">
+            <div class="card mb-3 text-white bg-info">
+              <div class="card-header oyo"></div>
+              <div class="card-body  row">
+                  <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                        <p class="oyo_report card-text btn btn-outline-primary"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Active </h6>
+                            <p class="oyo_active_cases card-text btn btn-outline-warning"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Discharged </h6>
+                              <p class="oyo_discharged_cases card-text btn btn-outline-success"></p>
+                          </div>
+                        <div class="col-sm-3 text-center">
+                       <h6 class="card-title">Death </h6>
+                       <p class="oyo_death_cases card-text btn btn-outline-danger"></p>
+                    </div>
+              </div>
+            </div>
+          </div>
+  
+              <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-dark">
+                  <div class="card-header osun"></div>
+                  <div class="card-body row">
+      
+                    <div class="col-sm-3 text-center">
+                    <h6 class="card-title">Confirmed</h6>
+                    <p class="osun_report card-text btn btn-outline-primary"></p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Active </h6>
+                        <p class="osun_active_cases card-text btn btn-outline-warning"></p>
+                    </div>
+      
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Discharged </h6>
+                          <p class="osun_discharged_cases card-text btn btn-outline-success"></p>
+                      </div>
+      
+                        <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Death </h6>
+                              <p class="osun_death_cases card-text btn btn-outline-danger"></p>
+                            </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-secondary">
+                  <div class="card-header kwara"></div>
+                  <div class="card-body row">
+                      <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                        <p class="kwara_report card-text btn btn-outline-primary"></p>
+                      </div>
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Active </h6>
+                            <p class="kwara_active_cases card-text btn btn-outline-warning"></p>
+                        </div>
+                       <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Discharged </h6>
+                           <p class="kwara_discharged_cases card-text btn btn-outline-success"></p>
+                          </div>
+                           <div class="col-sm-3 text-center">
+                               <h6 class="card-title">Death </h6>
+                             <p class="kwara_death_cases card-text btn btn-outline-danger"></p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-success">
+                  <div class="card-header nasarawa"></div>
+                  <div class="card-body row">
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Confirmed</h6>
+                            <p class="nasarawa_report card-text btn btn-outline-primary"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Active </h6>
+                                <p class="nasarawa_active_cases card-text btn btn-outline-warning"></p>
+                            </div>
+              
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Discharged </h6>
+                                  <p class="nasarawa_discharged_cases card-text btn btn-outline-dark"></p>
+                              </div>
+                             <div class="col-sm-3 text-center">
+                               <h6 class="card-title">Death </h6>
+                               <p class="nasarawa_death_cases card-text btn btn-outline-danger"></p>
+                             </div>
+                         </div>
+                       </div>
+                    </div>
+      
+              <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-warning">
+                  <div class="card-header kebbi"></div>
+                  <div class="card-body row">
+      
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Confirmed</h6>
+                            <p class="kebbi_report card-text btn btn-outline-primary"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Active </h6>
+                                <p class="kebbi_active_cases card-text btn btn-outline-dark"></p>
+                            </div>
+                           <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Discharged </h6>
+                            <p class="kebbi_discharged_cases card-text btn btn-outline-success"></p>
+                             </div>
+                            <div class="col-sm-3 text-center">
+                               <h6 class="card-title">Death </h6>
+                                <p class="kebbi_death_cases card-text btn btn-outline-danger"></p>
+                           </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-danger">
+                  <div class="card-header rivers"></div>
+                  <div class="card-body row">
+      
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Confirmed</h6>
+                            <p class="rivers_report card-text btn btn-outline-primary"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Active </h6>
+                                <p class="rivers_active_cases card-text btn btn-outline-warning"></p>
+                            </div>
+                            <div class="col-sm-3 text-center">
+                               <h6 class="card-title">Discharged </h6>
+                               <p class="rivers_discharged_cases card-text btn btn-outline-success"></p>
+                             </div>
+              
+                            <div class="col-sm-3 text-center">
+                               <h6 class="card-title">Death </h6>
+                              <p class="rivers_death_cases card-text btn btn-outline-dark"></p>
+                           </div>
+                   </div>
+                </div>
+              </div>
+      
+              <div class="col-sm-6">
+                <div class="card mb-3 text-white bg-info">
+                  <div class="card-header adamawa"></div>
+                  <div class="card-body  row">
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Confirmed</h6>
+                            <p class="adamawa_report card-text btn btn-outline-primary"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Active </h6>
+                                <p class="adamawa_active_cases card-text btn btn-outline-warning"></p>
+                            </div>
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Discharged </h6>
+                                  <p class="adamawa_discharged_cases card-text btn btn-outline-success"></p>
+                              </div>
+                            <div class="col-sm-3 text-center">
+                           <h6 class="card-title">Death </h6>
+                           <p class="adamawa_death_cases card-text btn btn-outline-danger"></p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            
+          <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-success">
+                <div class="card-header plateau"></div>
+                <div class="card-body row">
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="plateau_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="plateau_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+            
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Discharged </h6>
+                                <p class="plateau_discharged_cases card-text btn btn-outline-dark"></p>
+                            </div>
+                           <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                             <p class="plateau_death_cases card-text btn btn-outline-danger"></p>
+                           </div>
+                       </div>
+                     </div>
+                  </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-warning">
+                <div class="card-header akwaIbom"></div>
+                <div class="card-body row">
+    
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="akwaIbom_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="akwaIbom_active_cases card-text btn btn-outline-dark"></p>
+                          </div>
+                     <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Discharged </h6>
+                       <p class="akwaIbom_discharged_cases card-text btn btn-outline-warning"></p>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                     <h6 class="card-title">Death </h6>
+                     <p class="akwaIbom_death_cases card-text btn btn-outline-danger"></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-danger">
+                <div class="card-header delta"></div>
+                <div class="card-body row">
+    
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="delta_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="delta_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+                          <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Discharged </h6>
+                             <p class="delta_discharged_cases card-text btn btn-outline-success"></p>
+                           </div>
+            
+                          <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                            <p class="delta_death_cases card-text btn btn-outline-dark"></p>
+                         </div>
+                 </div>
+              </div>
+            </div>
+    
+            <div class="col-sm-6">
+              <div class="card mb-3 text-white bg-info">
+                <div class="card-header ondo"></div>
+                <div class="card-body  row">
+                    <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="ondo_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="ondo_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+                            <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Discharged </h6>
+                                <p class="ondo_discharged_cases card-text btn btn-outline-success"></p>
+                            </div>
+                          <div class="col-sm-3 text-center">
+                         <h6 class="card-title">Death </h6>
+                         <p class="ondo_death_cases card-text btn btn-outline-danger"></p>
+                      </div>
+                </div>
+              </div>
+            </div>
+    
+                <div class="col-sm-6">
+                    <div class="card mb-3 text-white bg-dark">
+                    <div class="card-header taraba"></div>
+                    <div class="card-body row">
+        
+                      <div class="col-sm-3 text-center">
+                      <h6 class="card-title">Confirmed</h6>
+                      <p class="taraba_report card-text btn btn-outline-primary"></p>
+                      </div>
+                      <div class="col-sm-3 text-center">
+                          <h6 class="card-title">Active </h6>
+                          <p class="taraba_active_cases card-text btn btn-outline-warning"></p>
+                      </div>
+        
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Discharged </h6>
+                            <p class="taraba_discharged_cases card-text btn btn-outline-success"></p>
+                        </div>
+        
+                          <div class="col-sm-3 text-center">
+                                <h6 class="card-title">Death </h6>
+                                <p class="taraba_death_cases card-text btn btn-outline-danger"></p>
+                              </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-secondary">
+                    <div class="card-header ekiti"></div>
+                    <div class="card-body row">
+                        <div class="col-sm-3 text-center">
+                        <h6 class="card-title">Confirmed</h6>
+                          <p class="ekiti_report card-text btn btn-outline-primary"></p>
+                        </div>
+                          <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Active </h6>
+                              <p class="ekiti_active_cases card-text btn btn-outline-warning"></p>
+                          </div>
+                         <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Discharged </h6>
+                             <p class="ekiti_discharged_cases card-text btn btn-outline-success"></p>
+                            </div>
+                             <div class="col-sm-3 text-center">
+                                 <h6 class="card-title">Death </h6>
+                               <p class="ekiti_death_cases card-text btn btn-outline-danger"></p>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-success">
+                    <div class="card-header yobe"></div>
+                    <div class="card-body row">
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Confirmed</h6>
+                              <p class="yobe_report card-text btn btn-outline-primary"></p>
+                            </div>
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Active </h6>
+                                  <p class="yobe_active_cases card-text btn btn-outline-warning"></p>
+                              </div>
+                
+                                <div class="col-sm-3 text-center">
+                                    <h6 class="card-title">Discharged </h6>
+                                    <p class="yobe_discharged_cases card-text btn btn-outline-dark"></p>
+                                </div>
+                               <div class="col-sm-3 text-center">
+                                 <h6 class="card-title">Death </h6>
+                                 <p class="yobe_death_cases card-text btn btn-outline-danger"></p>
+                               </div>
+                           </div>
+                         </div>
+                      </div>
+        
+                <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-warning">
+                    <div class="card-header niger"></div>
+                    <div class="card-body row">
+        
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Confirmed</h6>
+                              <p class="niger_report card-text btn btn-outline-primary"></p>
+                            </div>
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Active </h6>
+                                  <p class="niger_active_cases card-text btn btn-outline-dark"></p>
+                              </div>
+                             <div class="col-sm-3 text-center">
+                              <h6 class="card-title">Discharged </h6>
+                              <p class="niger_discharged_cases card-text btn btn-outline-success"></p>
+                               </div>
+                              <div class="col-sm-3 text-center">
+                                 <h6 class="card-title">Death </h6>
+                                  <p class="niger_death_cases card-text btn btn-outline-danger"></p>
+                             </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-danger">
+                    <div class="card-header bayelsa"></div>
+                    <div class="card-body row">
+        
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Confirmed</h6>
+                              <p class="bayelsa_report card-text btn btn-outline-primary"></p>
+                            </div>
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Active </h6>
+                                  <p class="bayelsa_active_cases card-text btn btn-outline-warning"></p>
+                              </div>
+                              <div class="col-sm-3 text-center">
+                                 <h6 class="card-title">Discharged </h6>
+                                 <p class="bayelsa_discharged_cases card-text btn btn-outline-success"></p>
+                               </div>
+                
+                              <div class="col-sm-3 text-center">
+                                 <h6 class="card-title">Death </h6>
+                                <p class="bayelsa_death_cases card-text btn btn-outline-dark"></p>
+                             </div>
+                     </div>
+                  </div>
+                </div>
+        
+                <div class="col-sm-6">
+                  <div class="card mb-3 text-white bg-info">
+                    <div class="card-header benue"></div>
+                    <div class="card-body  row">
+                        <div class="col-sm-3 text-center">
+                            <h6 class="card-title">Confirmed</h6>
+                              <p class="benue_report card-text btn btn-outline-primary"></p>
+                            </div>
+                              <div class="col-sm-3 text-center">
+                                  <h6 class="card-title">Active </h6>
+                                  <p class="benue_active_cases card-text btn btn-outline-warning"></p>
+                              </div>
+                                <div class="col-sm-3 text-center">
+                                    <h6 class="card-title">Discharged </h6>
+                                    <p class="benue_discharged_cases card-text btn btn-outline-success"></p>
+                                </div>
+                              <div class="col-sm-3 text-center">
+                             <h6 class="card-title">Death </h6>
+                             <p class="benue_death_cases card-text btn btn-outline-danger"></p>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+      </section>
+    </main>
+
+    <footer class="text-center mt-5 mb-3">
+        
+            💓 <a href="https://www.linkedin.com/in/chinonso-ubadire-ogbonna-31a0b11a4" class="text-success">@me</a>
+        
+    </footer>
+  </body>
+  <script src="public/app.js"></script>
+  <script src="public/api.js"></script>
+</html>
